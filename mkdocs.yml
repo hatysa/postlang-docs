@@ -1,0 +1,59 @@
+site_name: postlang documentation
+site_url: https://postlang.github.io/postlang
+
+repo_name: 'postlang/postlang'
+repo_url: 'https://github.com/postlang/postlang'
+
+theme: readthedocs
+
+nav:
+    - Home: 'index.md'
+    - Self-Host:
+      - Overview: 'self-host.md'
+      - Configure:
+        - Async Migrations: 'self-host/configure/async-migrations.md'
+        - Email: 'self-host/configure/email.md'
+        - Env Variables: 'self-host/configure/environment-variables.md'
+        - Securing: 'self-host/configure/securing-postlang.md'
+    - Integrate:
+      - Ingest Live Data: 'integrate/ingest-live-data.md'
+    - User Guides:
+      - Actions: 'user-guides/actions.md'
+      - Group Analytics: 'user-guides/group-analytics.md'
+      - Funnels: 'user-guides/funnels.md'
+      - Organizations and Projects: 'user-guides/organizations-and-projects.md'
+      - Paths: 'user-guides/paths.md'
+      - Recordings: 'user-guides/recordings.md'
+    - Plugins:
+      - Build:
+        - Overview: 'plugins/build/overview.md'
+        - Tutorial: 'plugins/build/tutorial.md'
+    - Tutorials:
+      - Toolbar: 'tutorials/toolbar.md'
+    - API:
+      - Overview: 'api/overview.md'
+      - Feature Flags: 'api/feature-flags.md'
+    - Features:
+      - Actions: 'features/actions.md'
+      - Feature Flags: 'features/feature-flags.md'
+      - Organizations: 'features/organizations.md'
+      - Retention: 'features/retention.md'
+      - Session Recording: 'features/session-recording.md'
+      - SSO: 'features/sso.md'
+    - Integrations:
+      - Overview: 'integrations.md'
+      - Javascript: 'integrations/js-integration.md'
+      - Message Formatting: 'integrations/message-formatting.md'
+      - Microsoft Teams : 'integrations/microsoft-teams.md'
+      - Python: 'integrations/python-integration.md'
+      - Slack: 'integrations/slack.md'
+    - Libraries: 'libraries.md'
+    - Configuring: 
+        - Env Variables: 'configuring-postlang/environment-variables.md'
+        - Running Behind Proxy: 'configuring-postlang/running-behind-proxy.md'
+    - Developing Locally: 'developing-locally.md'
+    - Deployment: 
+      - Running Behind Proxy: 'deployment/running-behind-proxy.md'
+      - Upgrading: 'deployment/upgrading-postlang.md'
+     
+      
